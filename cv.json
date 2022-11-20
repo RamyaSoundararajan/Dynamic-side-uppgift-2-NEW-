@@ -1,0 +1,38 @@
+{
+
+"personal": [
+    {
+            "name": "Ramya",
+            "label":"Electrical and Software Engineer",
+            "email":"ramyavijaysr@gmail.com",
+            "phone":"0762412816",
+            "address":"Ornövägen 10,Orminge",
+            "postalCode": "13232",
+            "city": "Stockholm",
+            "country": "Sweden"
+    }
+    ],
+"education": [
+    {
+         "year": "2007-2011",
+         "subject":"Electrical And Electronics Engineering",
+         "university":"Muthayammal Engineering College"
+
+    }
+    ],
+
+"employment":[
+    {
+    "time":"2011-2015",
+    "jobTitle":"Lecture",
+    "organisationName":"Muthayammal Polytechnic College"
+    }
+    ],
+ "languages": [
+    {
+    "motherTongue":"Tamil",
+    "fluency":"English",
+    "veryGood":"Swedish"
+    }
+    ]
+}

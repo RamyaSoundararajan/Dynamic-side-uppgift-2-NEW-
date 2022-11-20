@@ -1,0 +1,192 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.header
+{
+    background-image:url("Ramya lastest.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.active{
+    background-color: darkorchid;
+}
+
+.nav li
+{
+    display: inline-block;
+    
+}
+
+.li a
+{
+    color: lime;
+    font-size: large;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.nav link:hover{
+    color: blue;
+    transition: .3s;
+    border: 1px solid black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
+  border-bottom: 1px solid #E2E8F0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.hamburger {
+display: none;
+}
+.bar {
+display: block;
+width: 25px;
+height: 4px;
+color: lime;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: blue;
+}
+.nav-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-item {
+margin-left: 5rem;
+}
+.nav-link{
+font-size: xx-large;
+color:blue;
+}
+.nav-logo {
+font-size: 2rem;
+font-weight: 300;
+color: blue;
+}
+@media only screen and (max-width: 768px) {
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 3rem;
+    flex-direction: column;
+    background-color: silver;
+    width: 30%;
+    border-radius: 1px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 17px rgba(0, 0, 0, 0.05);
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY (8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.nav-menu.active {
+    left: 0;
+}
+.nav-item {
+    margin: 2.5rem 0;
+}
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+}
+
+.content{
+    position: absolute;
+    top: 90%;
+    right: 8%;
+    transform: translateY(-50%);
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+  }
+   
+h2{
+   color: blue;
+   text-transform: none;
+   font-size: 100;
+   text-align: left;
+}
+
+.about{
+
+    padding: 50px 6px;
+    background-color:#E2D1F9
+}
+
+.img{
+    height: auto;
+    width: 80px;
+    background-color:#E2D1F9
+
+}
+.about-text{
+    height: 100px;
+    width: 500px;
+    
+}
+.main{
+    width: 800px;
+    max-width: 95%;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#E2D1F9
+}
+@media  screen and (min-width: 480px) {
+    .main{
+        background-color: #E2D1F9;
+        display: flex;
+    }
+}
+.pg3{
+    background-color: #E2D1F9;
+}
+
+u { 
+    text-decoration: underline;
+  }
